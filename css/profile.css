@@ -45,6 +45,7 @@ main img {
     padding-top: 20px;
 }
 
+
 .main1 p {
     color: rgb(84, 81, 102);
 }
@@ -63,7 +64,7 @@ p {
     background-color: rgb(84, 81, 102);
     color: white;
     margin: 0 auto;
-    padding: 20px 275px;
+    padding: 20px 13.8em;
 }
 
 a {
@@ -99,4 +100,36 @@ p.caption {
     font-style: italic;
     margin-top: 0;
     text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+   img {
+    width: 100%;
+   } 
+   .main2 {
+    padding: 15px 0;
+   }
+   h1 {
+    font-size: 30px;
+   }
+   .main1 h2 {
+    font-size: 20px;
+   }
+   .main1 p {
+    font-size: 15px;
+   }
+   .main2 h2 {
+    font-size: 20px;
+   }
+    .main2 p {
+    font-size: 15px;
+    }
+
+    div ul, div ol {
+    font-size: 15px;
+    }
+    footer {
+    font-size: 15px;
+    }
+
 }
